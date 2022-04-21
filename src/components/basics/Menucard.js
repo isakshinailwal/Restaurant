@@ -1,12 +1,11 @@
 import React from "react";
 
 const Menucard = ({ menuData }) => {
-  // const style = {color : "red"}  // for internal CSS
   return (
     <>
     <section className="main-card--cointainer">
       {menuData.map((i) => {
-        const {id,name,category,description,image} = i // destructing
+        const {id,name,category,description,image} = i 
         return (
           <>
             <div className="card-container" key = {id}>
