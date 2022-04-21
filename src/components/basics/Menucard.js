@@ -13,8 +13,6 @@ const Menucard = ({ menuData }) => {
               <div className="card">
                 <div className="card-body">
                   <span className="card-number card-circle subtle">{id}</span>
-                  {/* <span className='card-author subtle' style={style}>breakfast</span>  //for internal CSS */}
-                  {/* <span className='card-author subtle' style={{color:"blue"}}>breakfast</span>  //for inline CSS */}
                   <span className="card-author subtle">{category}</span>
                   <h2 className="card-title">{name}</h2>
                   <span className="card-description subtle">{description}

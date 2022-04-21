@@ -1,5 +1,5 @@
 import Restaurant from "./components/basics/Restaurant"
-import Navbar from "./components/basics/Navbar";
+
 
 function App() {
   return (
